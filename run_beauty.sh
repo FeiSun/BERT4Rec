@@ -28,7 +28,7 @@ python -u gen_data_fin.py \
     --pool_size=${pool_size} \
 
 
-CUDA_VISIBLE_DEVICES=1 python -u run_pretraining.py \
+CUDA_VISIBLE_DEVICES=1 python -u run.py \
     --train_input_file=./data/${dataset_name}${signature}.train.tfrecord \
     --test_input_file=./data/${dataset_name}${signature}.test.tfrecord \
     --vocab_filename=./data/${dataset_name}${signature}.vocab \
