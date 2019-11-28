@@ -4,7 +4,7 @@ max_seq_length=50
 max_predictions_per_seq=30
 masked_lm_prob=0.6
 
-dim=16
+dim=64
 batch_size=256
 num_train_steps=400000
 
